@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>To Do List</h1>
+
+    <input type="text" id="taskInput" placeholder="enter a task">
+    <button id="addBtn">Add</button>
+
+    <!-- FİLTRELER -->
+    <div class="filters">
+        <button class="filter-btn active" data-filter="all">Tümü</button>
+        <button class="filter-btn" data-filter="active">Aktif</button>
+        <button class="filter-btn" data-filter="completed">Tamamlanan</button>
+    </div>
+
+    <h2 id="taskTitle">Eklenen Görevler</h2>
+    <ul id="taskList"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
